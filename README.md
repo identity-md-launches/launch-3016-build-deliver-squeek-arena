@@ -93,13 +93,14 @@ npm run test:browser
 npm run test:adventure
 node scripts/adventure-check.mjs --mobile
 npm run test:integration
+npm run test:revision
 ```
 
 Run `npm test` before the browser suite: it creates an actually earned victory profile used to check populated UI. Integration checks additionally require `curl` and access to the official public API. They capture real public responses for a public holder, then test the browser against those exact responses and deliberate error conditions. No sample NFTs or players are bundled into the runtime.
 
 The full-adventure browser check builds an excluded test export with an engine-reference hook, drives normal input states through the real physics, and clicks actual transition/reward UI. The shipped export has no test hook. Tests write only under excluded `test/scratch/`; the application build never depends on that directory.
 
-Actual validation on 2026-11-05: production build and TypeScript check passed; **16 gameplay checks, 19 production-browser checks, ten adventure-flow browser checks across desktop and mobile and seven integration checks passed**. The pinned design probe passed **16/16**. Production layout was checked at 320, 390, 744 and 1440 pixels, plus mobile landscape. See [artifacts/VALIDATION.md](artifacts/VALIDATION.md) for commands, evidence, repairs and coverage limits.
+Revision validation on 2026-11-06 (Europe/Berlin): production build and TypeScript check passed; **16 gameplay checks, 19 production-browser checks, ten adventure-flow browser checks across desktop and mobile, seven integration checks and four finding-regression checks passed**. The pinned design probe passed **16/16**. Production layout was checked at 320, 390, 744 and 1440 pixels, plus mobile landscape. All four review findings were reproduced before targeted repairs. See [artifacts/VALIDATION.md](artifacts/VALIDATION.md) for commands, retained evidence, repairs and coverage limits.
 
 WebKit could not launch because the host lacks its system libraries. Physical wallet apps, Coinbase passkeys and wallet-confirmed transactions were not exercised. Public API reads succeeded through `curl`; direct external requests from this machine’s browser were unavailable, so browser success states used the captured real responses. Automated fast traversal establishes completion, but is not human difficulty testing. Canvas gameplay is visual and has no screen-reader equivalent. These limits are recorded explicitly rather than represented as successful checks.
 

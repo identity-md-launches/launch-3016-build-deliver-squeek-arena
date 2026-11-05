@@ -520,7 +520,7 @@ export class Game {
       b.timer = b.phase === 2 ? 0.9 : 1.15;
       this.say(
         b.state === "tell-charge"
-          ? "Charge incoming. Jump or dash through!"
+          ? "Charge incoming. Dash through!"
           : "Ground slam incoming. Get ready to jump!",
         1.3,
       );

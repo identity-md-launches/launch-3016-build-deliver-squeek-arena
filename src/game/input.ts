@@ -40,7 +40,7 @@ export class Input {
     if (!this.enabled || e.defaultPrevented) return;
     if (e.code === "Escape" && this.active()) {
       e.preventDefault();
-      this.pause();
+      if (!e.repeat) this.pause();
       return;
     }
     if (

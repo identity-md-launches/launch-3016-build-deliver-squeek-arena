@@ -83,7 +83,7 @@ The main radius token is `--radius: 8px`. Buttons, cosmetics, NFT cards and segm
 | `CharacterPanel` / `ProfileMini` | `src/ui/Panels.tsx` | Name form, XP progress, achievements, earned/locked/equipped cosmetics and optional portrait |
 | `LeaderboardPanel` | `src/ui/Panels.tsx` | Labeled local scope, filter group, loading/empty/error/table states and retry |
 | `WalletControls` / `NftIdentity` | `src/ui/Wallet.tsx` | Provider discovery, mobile app links, network/error/pending states; paginated verified identity reads with cooldown |
-| `Wheel` | `src/ui/Wheel.tsx` | Real measurement, provenance/time/freshness, loading/error/retry; optional community context |
+| `Wheel` | `src/ui/Wheel.tsx` | Real measurement, provenance/time/freshness, loading/error/retry; retry enables at the cooldown deadline; optional community context |
 | `HamsterPortrait`, `PixelItem`, `RegionArt`, `Icon` | `src/ui/` | Locally drawn canvas art and custom SVG paths; decorative icons hidden from assistive technology |
 
 Focus uses a 2px primary-text outline with 4px offset. The skip link appears on keyboard focus. Native labels, table headers and progress semantics carry ordinary UI meaning. The visual canvas game itself is not a screen-reader accessible game.

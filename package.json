@@ -12,6 +12,7 @@
     "test:browser": "node scripts/browser-check.mjs",
     "test:adventure": "node scripts/adventure-check.mjs",
     "test:integration": "node scripts/integration-check.mjs",
+    "test:revision": "node scripts/revision-check.mjs",
     "art:share": "node scripts/generate-art.mjs"
   },
   "dependencies": {

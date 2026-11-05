@@ -37,6 +37,12 @@ export function Wheel() {
     return () => a.abort();
   }, [attempt]);
   useEffect(() => {
+    const remaining = retryAt - Date.now();
+    if (remaining <= 0) return;
+    const timeout = setTimeout(() => setNow(Date.now()), remaining);
+    return () => clearTimeout(timeout);
+  }, [retryAt]);
+  useEffect(() => {
     const tick = setInterval(() => {
       setNow(Date.now());
       if (document.visibilityState === "visible") setAttempt((n) => n + 1);
