@@ -1,0 +1,33 @@
+{
+  "name": "squeek-arena",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/validate.mjs",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:adventure": "node scripts/adventure-check.mjs",
+    "test:integration": "node scripts/integration-check.mjs",
+    "art:share": "node scripts/generate-art.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^4.4.0",
+    "@tanstack/react-query": "^5.106.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "viem": "^2.57.16",
+    "wagmi": "^3.7.11"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.64.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  }
+}
