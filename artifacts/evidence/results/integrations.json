@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Live official status, deployment, ownership and metadata reads",
+    "passed": true,
+    "detail": {
+      "requests": 28,
+      "confirmedBlock": "12072922",
+      "firstToken": "9889"
+    }
+  },
+  {
+    "name": "Captured real NFT ownership, metadata, pagination and portrait selection render",
+    "passed": true
+  },
+  {
+    "name": "Deployment mismatch refuses NFT identity while preserving open gameplay",
+    "passed": true
+  },
+  {
+    "name": "Stale chain data is unavailable, rather than an empty NFT collection",
+    "passed": true
+  },
+  {
+    "name": "HTTP 200 unavailable ownership is surfaced as unknown",
+    "passed": true
+  },
+  {
+    "name": "NFT rate limiting disables retry, then recovers from real responses",
+    "passed": true
+  },
+  {
+    "name": "Real wheel readings render with provenance and stale readings are labeled",
+    "passed": true
+  }
+]

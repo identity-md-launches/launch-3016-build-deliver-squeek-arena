@@ -10,3 +10,23 @@
 **/coverage/
 **/*.tsbuildinfo
 /test/scratch/
+
+# Documentation-revision path budget: /artifacts/ <= 1536 KiB;
+# /.imd-responses.json <= 4 KiB. Source/config/root docs share the remaining
+# 508 KiB of the existing 2 MiB source/config/docs/artifacts allocation.
+# Required delivery evidence must remain visible despite local Git excludes.
+!/artifacts/
+!/artifacts/INTEGRATIONS.md
+!/artifacts/VALIDATION.md
+!/artifacts/ATTRIBUTION.md
+!/artifacts/licenses/
+!/artifacts/licenses/*.txt
+!/artifacts/licenses/dependency-inventory.json
+!/artifacts/evidence/
+!/artifacts/evidence/official-sources.json
+!/artifacts/evidence/build-and-typecheck.json
+!/artifacts/evidence/results/
+!/artifacts/evidence/results/*.json
+!/artifacts/evidence/screenshots/
+!/artifacts/evidence/screenshots/*.png
+!/.imd-responses.json

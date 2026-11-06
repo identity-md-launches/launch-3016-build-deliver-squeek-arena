@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Production export renders at 320, 390, 744 and 1440 without overflow",
+    "passed": true,
+    "detail": [
+      {
+        "width": 320,
+        "actionY": 608,
+        "errors": 0
+      },
+      {
+        "width": 390,
+        "actionY": 561,
+        "errors": 0
+      },
+      {
+        "width": 744,
+        "actionY": 559,
+        "errors": 0
+      },
+      {
+        "width": 1440,
+        "actionY": 570,
+        "errors": 0
+      }
+    ]
+  },
+  {
+    "name": "No-wallet desktop play: movement, jump, attack, dash and pause",
+    "passed": true,
+    "detail": {
+      "seeds": 6,
+      "score": 60
+    }
+  },
+  {
+    "name": "Pause settings, audio controls, modal Escape and focus return",
+    "passed": true
+  },
+  {
+    "name": "Refresh resumes a valid saved checkpoint",
+    "passed": true
+  },
+  {
+    "name": "Top navigation and character profile form work",
+    "passed": true
+  },
+  {
+    "name": "Local leaderboard shows loading, empty and filter states honestly",
+    "passed": true
+  },
+  {
+    "name": "Check-in is labeled unavailable and offers no signing action",
+    "passed": true
+  },
+  {
+    "name": "No-provider wallet flow reports unavailable and remains playable",
+    "passed": true
+  },
+  {
+    "name": "Mobile touch supports simultaneous move/jump plus attack and dash",
+    "passed": true
+  },
+  {
+    "name": "Gentle adventure HUD and touch controls fit a 320px screen",
+    "passed": true
+  },
+  {
+    "name": "Tab visibility pauses safely",
+    "passed": true
+  },
+  {
+    "name": "Audio construction failure does not block gameplay",
+    "passed": true
+  },
+  {
+    "name": "Blocked local storage shows an honest recoverable state",
+    "passed": true
+  },
+  {
+    "name": "Earned progression, cosmetics and populated leaderboard render after refresh",
+    "passed": true
+  },
+  {
+    "name": "EIP-6963 rejection returns a useful error",
+    "passed": true
+  },
+  {
+    "name": "EIP-6963 connects, shows wrong network, switches and disconnects without transactions",
+    "passed": true
+  },
+  {
+    "name": "Mobile wallet picker includes app links and Coinbase Smart Wallet",
+    "passed": true
+  },
+  {
+    "name": "Offline mode preserves the game and labels external data unavailable",
+    "passed": true
+  },
+  {
+    "name": "Reduced motion and keyboard focus are supported",
+    "passed": true
+  },
+  {
+    "name": "WebKit main interaction",
+    "skipped": true,
+    "reason": "WebKit executable is not installed in this revision environment; this check was not run."
+  }
+]

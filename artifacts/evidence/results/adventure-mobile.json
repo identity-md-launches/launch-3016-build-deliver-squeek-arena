@@ -1,0 +1,51 @@
+[
+  {
+    "name": "World 1: normal-input traversal and completion UI",
+    "passed": true,
+    "detail": {
+      "time": 11.85,
+      "seeds": 17,
+      "kills": 0,
+      "deaths": 0,
+      "maxX": 3021
+    }
+  },
+  {
+    "name": "World 2: normal-input traversal and completion UI",
+    "passed": true,
+    "detail": {
+      "time": 27.52,
+      "seeds": 21,
+      "kills": 2,
+      "deaths": 0,
+      "maxX": 3401
+    }
+  },
+  {
+    "name": "World 3: normal-input traversal and completion UI",
+    "passed": true,
+    "detail": {
+      "time": 42.78,
+      "seeds": 24,
+      "kills": 4,
+      "deaths": 0,
+      "maxX": 3770
+    }
+  },
+  {
+    "name": "Boss combat \u2192 defeat sequence \u2192 victory \u2192 rewards \u2192 real local score \u2192 refresh",
+    "passed": true,
+    "detail": {
+      "mode": "victory",
+      "bossHp": 0,
+      "retries": 1,
+      "score": 3020,
+      "celebrationAnimated": true,
+      "runClockFrozen": true
+    }
+  },
+  {
+    "name": "Game-over retry, restart and new-adventure cancel/confirm buttons",
+    "passed": true
+  }
+]

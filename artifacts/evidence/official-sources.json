@@ -1,0 +1,241 @@
+{
+  "inspectedDate": "2026-11-06",
+  "dateZone": "Europe/Berlin",
+  "recordedAt": "2026-11-06T00:16:29.554116+00:00",
+  "method": "Read-only HTTPS GET with curl --fail --location; HTML and its referenced modules inspected as data. Hashes identify fetched content; most full third-party responses are not redistributed.",
+  "sources": [
+    {
+      "url": "https://squeekchain.com/genesis/code",
+      "httpOutcome": "successful GET",
+      "sha256": "b723839568eecf1f6d1e6de25ae684f941087927435d944b711fc09a3c2bbf8d",
+      "bytes": 3818
+    },
+    {
+      "url": "https://squeekchain.com/assets/index-BDn-6AOS.js",
+      "httpOutcome": "successful GET",
+      "sha256": "879a8b304d490c905562401013a60d65e9b60f73566f2c33ded2992ee66412a4",
+      "bytes": 968601
+    },
+    {
+      "url": "https://squeekchain.com/assets/code-page-5m1RnXed.js",
+      "httpOutcome": "successful GET",
+      "sha256": "e0bcb6df265dbfe190ddba9fa169556dd200142131c57d527553c9972828b0d7",
+      "bytes": 127674
+    },
+    {
+      "url": "https://squeekchain.com/assets/build-guide-Do8zpcV2.js",
+      "httpOutcome": "successful GET",
+      "sha256": "afeab5374b7fe4eda5eb45c29d01ec8c9a24cf2cd71f51fa657c505f22dbd245",
+      "bytes": 18640
+    },
+    {
+      "url": "https://docs.squeekchain.com/developers/",
+      "httpOutcome": "successful GET",
+      "sha256": "735820fc04b60012b362abe07be4982abcbd4e41cf635f608b939d1120d9ad65",
+      "bytes": 149731
+    },
+    {
+      "url": "https://docs.squeekchain.com/assets/deployments/sepolia.json",
+      "httpOutcome": "successful GET",
+      "sha256": "219ef9a6fe40d483b43a82ff5e445313af2a3b88f0b324622ab528769a97d095",
+      "bytes": 6918
+    },
+    {
+      "url": "https://docs.squeekchain.com/developers/quickstart/",
+      "httpOutcome": "successful GET",
+      "sha256": "a0d5d4cceb46b61c40dcfdcbde11b6849d908f7bd6f0eb2c1f4d41c14679fae1",
+      "bytes": 191033
+    },
+    {
+      "url": "https://docs.squeekchain.com/developers/api/",
+      "httpOutcome": "successful GET",
+      "sha256": "6ea90b0c35b305727f1ce598100df13de0633ccaf800b121a87d56b60121b301",
+      "bytes": 317424
+    },
+    {
+      "url": "https://docs.squeekchain.com/developers/nft/",
+      "httpOutcome": "successful GET",
+      "sha256": "8a5f85f109e43ef4cbfcd06c277c143bbe43dce267a544560379599c731389d5",
+      "bytes": 202598
+    },
+    {
+      "url": "https://docs.squeekchain.com/squeeks/ownership/",
+      "httpOutcome": "successful GET",
+      "sha256": "8a53c7d12f3195ce2c39d4b1fb81ac246d3a4824bb1988f77796a82c7803f431",
+      "bytes": 126650
+    },
+    {
+      "url": "https://docs.squeekchain.com/system/rounds-and-blocks/",
+      "httpOutcome": "successful GET",
+      "sha256": "e2fe2dfda7b848c6a144d39b458ba2560cbfed244462b6ae6be3f2a6c78723ba",
+      "bytes": 132129
+    },
+    {
+      "url": "https://docs.squeekchain.com/developers/build-with-ai/",
+      "httpOutcome": "successful GET",
+      "sha256": "d7df46ad4450e56c29e5d1723d0250d1c1ad1acde73c1faf4dcf6f7a49505d5f",
+      "bytes": 140978
+    },
+    {
+      "url": "https://ethereum-sepolia.publicnode.com/",
+      "httpOutcome": "successful GET",
+      "sha256": "65b49a1e1e1b0060f4a930dabafe92f8015665623f50759829a58de7ca833137",
+      "bytes": 941160
+    },
+    {
+      "url": "https://api.squeekchain.com/v1/status",
+      "httpOutcome": "successful GET",
+      "sha256": "a67381cf9076befb975fa409aa7050c327af82cc2f56578a62680845b108b93b",
+      "bytes": 3287
+    },
+    {
+      "url": "https://api.squeekchain.com/v1/economy/state",
+      "httpOutcome": "successful GET",
+      "sha256": "65163e306bfebff181ed246e114e9361f0f6537015d5fa065dc5075f024206b8",
+      "bytes": 23903
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+      "httpOutcome": "successful GET",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "bytes": 4482
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/pixelifysans/OFL.txt",
+      "httpOutcome": "successful GET",
+      "sha256": "b66ba46f511a851ab09998b5a5a9fdbb102545a3864cb993095e1745996873a7",
+      "bytes": 4488
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rainbow-me/rainbowkit/main/LICENSE",
+      "httpOutcome": "successful GET",
+      "sha256": "5095037afa1ba03be36e04305c01ec9ee600e14377738a026482b1a888c4e365",
+      "bytes": 1064
+    }
+  ],
+  "deploymentObserved": {
+    "network": "sepolia",
+    "chainId": 11155111,
+    "release": "core-sepolia-20261103",
+    "revision": 7,
+    "explorer": "https://eth-sepolia.blockscout.com"
+  },
+  "contractAddresses": {
+    "SqueekCore": "0xfd6c166d4b8e2962e65746a13e5a0797cd4de0c4",
+    "SqueekNFT": "0xc4c7982657f00509548f3a3a41db7fa439a6856b",
+    "SqueekToken": "0xd78a3956cf63164d1fa1c622ad3c66623162fa1e"
+  },
+  "apiEconomyObserved": {
+    "generatedAt": "2026-11-06T00:07:29.951Z",
+    "status": "available",
+    "chain": {
+      "target": "sepolia",
+      "chainId": "11155111",
+      "confirmations": "12",
+      "deploymentBlock": "12057556",
+      "indexedThroughBlock": "12072919",
+      "safeThroughBlock": "12072908",
+      "safeBlockHash": "0x1a3b9f57d752ae577a3a470b686b0ce6f7f457094ed4b08d1de8a9f22339fd57",
+      "safeBlockTimestamp": "2026-11-06T00:05:12.000Z"
+    },
+    "capabilities": {
+      "core": "verified",
+      "collection": "verified",
+      "token": "verified"
+    }
+  },
+  "wheelObserved": {
+    "generatedAt": "2026-11-06T00:07:03.133Z",
+    "measurement": {
+      "freshness": "online",
+      "observedAt": "2026-11-06T00:07:02.771Z",
+      "receivedAt": "2026-11-06T00:07:02.920Z",
+      "staleAfterSeconds": 120,
+      "counterEpoch": "c53e3951-4e69-4ad3-b59c-d122a064d15a",
+      "cumulativeWorkUnits": "3817",
+      "provenance": "hardware",
+      "coreStatus": "IDLE",
+      "rpmMilli": 0,
+      "speedMmPerSecond": 0,
+      "distanceMm": 0
+    }
+  },
+  "publicRpc": {
+    "source": "https://ethereum-sepolia.publicnode.com/",
+    "advertisedEndpoint": "https://ethereum-sepolia-rpc.publicnode.com",
+    "chainReadResult": "0xaa36a7",
+    "chainReadDecimal": 11155111,
+    "verificationBoundary": "Chain ID was cross-checked through the assignment-provided read-only Sepolia transport; this is not a PublicNode availability benchmark."
+  },
+  "genesisAssessment": "Product usefulness and genuine Squeekchain integration apply to a future listing. Registration, ownership proof and team approval are separate conditional submission steps; none was performed.",
+  "checkInAssessment": "No daily player check-in deployment/ABI or trusted eligibility/history endpoint was found in the inspected record, contract list and developer/API material. Unavailable in the delivered game.",
+  "apiCaptureRun": {
+    "capturedAt": "2026-11-06T00:10:35.230Z",
+    "sources": [
+      "https://api.squeekchain.com/v1/status",
+      "https://api.squeekchain.com/v1/economy/state",
+      "https://api.squeekchain.com/v1/accounts/0x9ca0a63dcea0592859bf78083c3a455fde747d31?limit=12",
+      "https://api.squeekchain.com/v1/accounts/0x9ca0a63dcea0592859bf78083c3a455fde747d31?limit=12&cursor=eyJ2ZXJzaW9uIjozLCJraW5kIjoiYWNjb3VudC10b2tlbnMiLCJhY2NvdW50IjoiMHg5Y2EwYTYzZGNlYTA1OTI4NTliZjc4MDgzYzNhNDU1ZmRlNzQ3ZDMxIiwicmVsZWFzZUlkIjoiY29yZS1zZXBvbGlhLTIwMjYxMTAzIiwic2FmZVRocm91Z2hCbG9jayI6IjEyMDcyOTIyIiwic2FmZUJsb2NrSGFzaCI6IjB4OThhMjljNDFmZmFjMGJjMzllZDRjODU4NmZjMTRhMGY2ZDUxMjBmYWJkNDRhZWQ0MzdlNDM3ZmNjNDdmODg0OCIsImxhc3RUb2tlbklkIjoiOTkwMCJ9",
+      "https://api.squeekchain.com/v1/squeeks/9889",
+      "https://api.squeekchain.com/v1/squeeks/9890",
+      "https://api.squeekchain.com/v1/squeeks/9891",
+      "https://api.squeekchain.com/v1/squeeks/9892",
+      "https://api.squeekchain.com/v1/squeeks/9893",
+      "https://api.squeekchain.com/v1/squeeks/9894",
+      "https://api.squeekchain.com/v1/squeeks/9895",
+      "https://api.squeekchain.com/v1/squeeks/9896",
+      "https://api.squeekchain.com/v1/squeeks/9897",
+      "https://api.squeekchain.com/v1/squeeks/9898",
+      "https://api.squeekchain.com/v1/squeeks/9899",
+      "https://api.squeekchain.com/v1/squeeks/9900",
+      "https://api.squeekchain.com/v1/squeeks/9901",
+      "https://api.squeekchain.com/v1/squeeks/9902",
+      "https://api.squeekchain.com/v1/squeeks/9903",
+      "https://api.squeekchain.com/v1/squeeks/9904",
+      "https://api.squeekchain.com/v1/squeeks/9905",
+      "https://api.squeekchain.com/v1/squeeks/9906",
+      "https://api.squeekchain.com/v1/squeeks/9907",
+      "https://api.squeekchain.com/v1/squeeks/9908",
+      "https://api.squeekchain.com/v1/squeeks/9909",
+      "https://api.squeekchain.com/v1/squeeks/9910",
+      "https://api.squeekchain.com/v1/squeeks/9911",
+      "https://api.squeekchain.com/v1/squeeks/9912"
+    ],
+    "chain": {
+      "target": "sepolia",
+      "chainId": "11155111",
+      "confirmations": "12",
+      "deploymentBlock": "12057556",
+      "indexedThroughBlock": "12072933",
+      "safeThroughBlock": "12072922",
+      "safeBlockHash": "0x98a29c41ffac0bc39ed4c8586fc14a0f6d5120fabd44aed437e437fcc47f8848",
+      "safeBlockTimestamp": "2026-11-06T00:08:00.000Z"
+    },
+    "observedTokens": [
+      "9889",
+      "9890",
+      "9891",
+      "9892",
+      "9893",
+      "9894",
+      "9895",
+      "9896",
+      "9897",
+      "9898",
+      "9899",
+      "9900",
+      "9901",
+      "9902",
+      "9903",
+      "9904",
+      "9905",
+      "9906",
+      "9907",
+      "9908",
+      "9909",
+      "9910",
+      "9911",
+      "9912"
+    ]
+  }
+}

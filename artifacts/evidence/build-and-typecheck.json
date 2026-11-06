@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-06",
+  "nodeVersion": "24.21.0",
+  "viteVersion": "8.3.6",
+  "typescriptVersion": "7.0.2",
+  "playwrightVersion": "1.65.0",
+  "dependencySetup": "Exact package-lock tarball URLs with SRI checks, extracted under excluded test/scratch/tooling using deps/ directories. No node_modules written. Scratch-only package resolver, Vite plugin and TS package path mappings.",
+  "productionBuild": {
+    "passed": true,
+    "exitCode": 0,
+    "actualCommand": "node --import ./test/scratch/resolve-tools.mjs test/scratch/tool-commands.mjs build",
+    "standardReproduction": "npm ci && npm run build",
+    "output": "test/scratch/production-export",
+    "warnings": [
+      "Dependency use-client module directives may not be preserved by the bundler.",
+      "Optional ox node:worker_threads import externalized for browser compatibility."
+    ]
+  },
+  "typecheck": {
+    "passed": true,
+    "exitCode": 0,
+    "actualCommand": "node --import ./test/scratch/resolve-tools.mjs test/scratch/tooling/deps/typescript/bin/tsc --noEmit -p test/scratch/tsconfig.check.json",
+    "standardReproduction": "npm run typecheck",
+    "configurationDifference": "Only scratch dependency/type resolution paths, with the root compiler options and src inclusion preserved."
+  },
+  "acceptedRuntimeAndExportUnchanged": true,
+  "exportFiles": [
+    {
+      "path": "dist/assets/dist-CVw9yEVn.js",
+      "bytes": 102687,
+      "sha256": "ce3b77e5cedcd54c361540e6c0987b918fe342e03ca399f80792a2861109db75"
+    },
+    {
+      "path": "dist/assets/dm-sans.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "dist/assets/favicon.svg",
+      "bytes": 534,
+      "sha256": "6f04144fa894998f678830fc36d9294d592f2d9344c4408bdebb8b73d1cc0221"
+    },
+    {
+      "path": "dist/assets/index-D3T6dEro.js",
+      "bytes": 414535,
+      "sha256": "bf3c26dfbc34a0c5172be85ee3575cc6286a42188002ef442dbff0d4ee89b5e2"
+    },
+    {
+      "path": "dist/assets/index-DRE6Lnl1.css",
+      "bytes": 33316,
+      "sha256": "25159219741abe0664a08c3a1c5a9b3da208827db0eee78bf2e4bb8d5116cb59"
+    },
+    {
+      "path": "dist/assets/pixelify-sans.woff2",
+      "bytes": 12016,
+      "sha256": "4a5633a0c9c1b73abd133a56d3716c2d8df2ed03cb987346f72194aeb224f382"
+    },
+    {
+      "path": "dist/assets/share.png",
+      "bytes": 650121,
+      "sha256": "26d9874163f814251690bf055446077641ec35faa79950971a341b047ab2523a"
+    },
+    {
+      "path": "dist/assets/wallets/coinbase.svg",
+      "bytes": 405,
+      "sha256": "1ee906043d43cb0836100ded9a1effe0dfec43282d471734e298a5ebc160bcba"
+    },
+    {
+      "path": "dist/assets/wallets/metamask.svg",
+      "bytes": 1665,
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "dist/assets/wallets/phantom.svg",
+      "bytes": 861,
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "dist/assets/wallets/rabby.svg",
+      "bytes": 2290,
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 1493,
+      "sha256": "1dfa7da0e761ec61eb37d5f2518b1a7f2b74638794e439680472bd3bb9b91715"
+    }
+  ],
+  "limits": [
+    "Scratch verification helpers are excluded and removed before submission; normal npm installation uses the delivered package/lock/config.",
+    "No claim of byte-identical generated JS across the flat tooling layout and a conventional npm installation. The accepted export was preserved and browser-tested.",
+    "WebKit check not run: executable not installed.",
+    "Provided browser MCP could not launch because its temporary socket path was too long; successful checks used installed Chromium Headless Shell via Playwright."
+  ]
+}

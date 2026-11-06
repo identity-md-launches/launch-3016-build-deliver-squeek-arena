@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-06",
+  "regressions": [
+    {
+      "name": "Every README documentation link resolves",
+      "passed": true,
+      "detail": {
+        "checked": [
+          "artifacts/INTEGRATIONS.md",
+          "artifacts/VALIDATION.md",
+          "DESIGN.md",
+          "artifacts/ATTRIBUTION.md"
+        ]
+      }
+    },
+    {
+      "name": "Holding Escape leaves play paused until a second physical press",
+      "passed": true
+    },
+    {
+      "name": "Boss charge advice matches measured ground-jump clearance",
+      "passed": true,
+      "detail": {
+        "minPlayerFeet": 307.625,
+        "bossTop": 304,
+        "advice": "Charge incoming. Dash through!"
+      }
+    },
+    {
+      "name": "Wheel retry enables after its 10-second cooldown without another poll",
+      "passed": true,
+      "detail": {
+        "requests": 2,
+        "elapsedMs": 11000
+      }
+    }
+  ],
+  "documentation": {
+    "passed": true,
+    "filesReviewed": [
+      "README.md",
+      "DESIGN.md",
+      "artifacts/INTEGRATIONS.md",
+      "artifacts/VALIDATION.md",
+      "artifacts/ATTRIBUTION.md"
+    ],
+    "localLinksChecked": 32,
+    "links": [
+      {
+        "document": "README.md",
+        "target": "artifacts/INTEGRATIONS.md"
+      },
+      {
+        "document": "README.md",
+        "target": "artifacts/VALIDATION.md"
+      },
+      {
+        "document": "README.md",
+        "target": "DESIGN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "artifacts/ATTRIBUTION.md"
+      },
+      {
+        "document": "artifacts/INTEGRATIONS.md",
+        "target": "evidence/official-sources.json"
+      },
+      {
+        "document": "artifacts/INTEGRATIONS.md",
+        "target": "VALIDATION.md"
+      },
+      {
+        "document": "artifacts/INTEGRATIONS.md",
+        "target": "ATTRIBUTION.md"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "../.imd-responses.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/revision.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/gameplay.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/browser.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/adventure-desktop.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/adventure-mobile.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/integrations.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/results/taste.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/build-and-typecheck.json"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/screenshots/menu-390.png"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/screenshots/menu-1440.png"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/screenshots/mobile-play.png"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "evidence/screenshots/victory-desktop.png"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "../DESIGN.md"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "INTEGRATIONS.md#daily-on-chain-check-in-unavailable"
+      },
+      {
+        "document": "artifacts/VALIDATION.md",
+        "target": "INTEGRATIONS.md#genesis-applicable-requirements-and-optional-steps"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "licenses/DMSans-OFL.txt"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "licenses/PixelifySans-OFL.txt"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "licenses/RainbowKit-MIT.txt"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "licenses/DESIGN-GUIDANCE.txt"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "../DESIGN.md"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "VALIDATION.md"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "licenses/dependency-inventory.json"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "licenses/DEPENDENCIES.txt"
+      },
+      {
+        "document": "artifacts/ATTRIBUTION.md",
+        "target": "INTEGRATIONS.md"
+      }
+    ]
+  },
+  "responseSchema": {
+    "passed": true,
+    "finding": "01684f65d8dbe95ac616962ed0a93177341e0072f9ddf990c5af73043ae4aa10"
+  },
+  "submission": {
+    "passed": true,
+    "totalFileBytes": 3427423,
+    "addedFileBytes": 1103947,
+    "limitBytes": 8388608,
+    "addedFileCount": 23,
+    "acceptedRuntimeUnchanged": true,
+    "note": "Raw file-byte budget excludes assignment inputs and scratch. No dependency/cache/archive deliverables added."
+  }
+}

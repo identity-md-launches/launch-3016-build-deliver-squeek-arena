@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Movement accelerates, stops, jumps, lands, attacks and dashes",
+    "passed": true
+  },
+  {
+    "name": "Coyote time and jump buffering forgive edge timing",
+    "passed": true
+  },
+  {
+    "name": "Damage protection, pause, checkpoints, retries and safe game-over",
+    "passed": true
+  },
+  {
+    "name": "Solid walls stop movement and one-way ledges catch a falling player",
+    "passed": true
+  },
+  {
+    "name": "Combat defeats a real enemy and each enemy telegraphs before attacking",
+    "passed": true
+  },
+  {
+    "name": "Spikes and timed steam hurt, dash protects, and lethal hazards cannot complete a level",
+    "passed": true
+  },
+  {
+    "name": "Falling returns to the last flag, costs a heart, and keeps collected progress",
+    "passed": true
+  },
+  {
+    "name": "Scoring persists and cannot be rewarded twice within a run",
+    "passed": true
+  },
+  {
+    "name": "Corrupt saves and unavailable storage degrade safely",
+    "passed": true
+  },
+  {
+    "name": "Audio failures are harmless",
+    "passed": true
+  },
+  {
+    "name": "Three distinct worlds contain designed content and a separate boss arena",
+    "passed": true
+  },
+  {
+    "name": "World 1 is completable using movement, jump and combat inputs",
+    "passed": true,
+    "details": {
+      "time": 11.52,
+      "seeds": 18,
+      "kills": 0,
+      "deaths": 0,
+      "maxX": 3020
+    }
+  },
+  {
+    "name": "World 2 is completable using movement, jump and combat inputs",
+    "passed": true,
+    "details": {
+      "time": 27.09,
+      "seeds": 21,
+      "kills": 0,
+      "deaths": 0,
+      "maxX": 3401
+    }
+  },
+  {
+    "name": "World 3 is completable using movement, jump and combat inputs",
+    "passed": true,
+    "details": {
+      "time": 42.24,
+      "seeds": 27,
+      "kills": 2,
+      "deaths": 0,
+      "maxX": 3770
+    }
+  },
+  {
+    "name": "Saving at a completed world resumes in the next world",
+    "passed": true
+  },
+  {
+    "name": "Full adventure ends in boss victory, rewards and a real local score",
+    "passed": true,
+    "details": {
+      "seconds": 66,
+      "retries": 0,
+      "states": [
+        "intro",
+        "idle",
+        "tell-slam",
+        "slam",
+        "exposed",
+        "tell-charge",
+        "charge",
+        "defeated"
+      ],
+      "score": 2960
+    }
+  }
+]
